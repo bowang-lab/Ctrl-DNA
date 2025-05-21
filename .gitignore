@@ -1,0 +1,21 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore hidden files (starting with .), except for .gitignore itself
+.*
+!.gitignore
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+wandb/
