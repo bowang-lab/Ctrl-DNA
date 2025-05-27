@@ -18,6 +18,15 @@ pip install -r requirements.txt
 
 We follow the preprocessing pipeline from [Genentech/regLM](https://github.com/Genentech/regLM). Please refer to their repository for detailed instructions.
 
+### Training
+
+To train the model on the enhancer and promoter dataset using our method, run:
+
+```bash
+bash reinforce_lagrange_promoters.sh
+bash reinforce_lagrange_enhancers.sh
+```
+
 ### Acknowledgements
 
 Our implementation builds upon several open-source projects:
