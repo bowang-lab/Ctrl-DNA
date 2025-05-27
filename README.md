@@ -17,3 +17,12 @@ pip install -r requirements.txt
 ## Data Preprocessing
 
 We follow the preprocessing pipeline from [Genentech/regLM](https://github.com/Genentech/regLM). Please refer to their repository for detailed instructions.
+
+### Acknowledgements
+
+Our implementation builds upon several open-source projects:
+
+- [regLM](https://github.com/Genentech/regLM): Provided the reward model architecture and data preprocessing pipeline.
+- [TACO](https://github.com/yangzhao1230/TACO): Supplied the reinforcement learning framework that our method extends.
+
+We sincerely thank the authors of these projects for making their code and datasets publicly available.
