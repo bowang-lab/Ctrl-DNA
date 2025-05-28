@@ -35,3 +35,19 @@ Our implementation builds upon several open-source projects:
 - [TACO](https://github.com/yangzhao1230/TACO): Supplied the reinforcement learning framework that our method extends.
 
 We sincerely thank the authors of these projects for making their code and datasets publicly available.
+
+### Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@misc{chen2025ctrldnacontrollablecelltypespecificregulatory,
+      title={Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL}, 
+      author={Xingyu Chen and Shihao Ma and Runsheng Lin and Jiecong Lin and Bo Wang},
+      year={2025},
+      eprint={2505.20578},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.20578}, 
+}
+```
